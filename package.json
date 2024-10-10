@@ -1,0 +1,26 @@
+{
+  "name": "testcafe-chai-http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "loginTests": "testcafe edge ./src/fixture/UI/login.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda0692/Testcafe-Chai-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanda0692/Testcafe-Chai-http/issues"
+  },
+  "homepage": "https://github.com/juanda0692/Testcafe-Chai-http#readme",
+  "description": "",
+  "devDependencies": {
+    "testcafe": "^3.6.2"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.30.0",
+    "chai-http": "^5.1.1"
+  }
+}
